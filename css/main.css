@@ -1,0 +1,45 @@
+.block-s
+{
+	-webkit-transition: all 200ms ease-in;
+	-webkit-transform: scale(1); 
+	-ms-transition: all 200ms ease-in;
+	-ms-transform: scale(1); 
+	-moz-transition: all 200ms ease-in;
+	-moz-transform: scale(1);
+	transition: all 200ms ease-in;
+	transform: scale(1);   
+
+}
+.block-s:hover
+{
+	box-shadow: 0px 0px 50px #000000;
+	z-index: 2;
+	-webkit-transition: all 200ms ease-in;
+	-webkit-transform: scale(1.05);
+	-ms-transition: all 200ms ease-in;
+	-ms-transform: scale(1.05);   
+	-moz-transition: all 200ms ease-in;
+	-moz-transform: scale(1.05);
+	transition: all 200ms ease-in;
+	transform: scale(1.05);
+}
+
+.block-s a{
+	border: none;
+}
+
+label.error
+{
+	color: #e71d32;
+}
+
+.leadspace-gradient{
+	background: #43C6AC; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #43C6AC , #191654); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #43C6AC , #191654); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
+
+.clear{
+	margin-bottom: 0px;
+	padding: 0px;
+}
